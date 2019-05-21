@@ -1,0 +1,22 @@
+{
+  "name": "react-shared-component",
+  "version": "1.0.0",
+  "description": "An example module demonstrating how to share react components",
+  "main": "build/index.js",
+  "repository": "https://github.com/giqbal/react-shared-component.git",
+  "author": "Gohar Iqbal <gohar.iqbal@infinityworks.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
